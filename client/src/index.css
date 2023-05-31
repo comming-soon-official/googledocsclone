@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .ql-editor {
+    width: 8.5in;
+    min-height: 11in;
+    padding: 1in;
+    margin: 1rem;
+    box-shadow:  0 0 5px 0 rgb(0, 0, 0, .5);
+    background-color: white;
+}
+
+ .ql-container{
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ql-toolbar{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(250, 250, 250);
+  box-shadow:  0 0 5px 0 rgb(0, 0, 0, .5);
+  border: none;
+}
